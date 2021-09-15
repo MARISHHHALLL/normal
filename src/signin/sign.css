@@ -1,0 +1,40 @@
+.sign__container {
+  background: white;
+  height: 30rem;
+  width: 30rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.sign__header {
+  flex: 0.25;
+  display: flex;
+  place-items: center;
+}
+
+.sign__form {
+  flex: 0.75;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.two__inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.middle__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.btn__sign {
+  margin-top: 15px;
+  align-self: flex-end;
+}
