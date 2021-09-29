@@ -6,9 +6,9 @@ import Index from './signin/index'
 function App() {
   return (
     <div className='App'>
-      {/* <Header />
-      <MainContent /> */}
-      <Index />
+      <Header />
+      <MainContent /> 
+      {/*<Index />*/}
     </div>
   )
 }
